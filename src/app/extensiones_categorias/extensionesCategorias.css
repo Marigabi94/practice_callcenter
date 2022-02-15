@@ -1,0 +1,13 @@
+.label{
+    font-weight: 600;
+}
+
+.select{
+    width: 300px !important;
+}
+
+.seccionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+<div class="seccionContainer">
+<div class="col row justify-content-around align-items-center">
+    <div class="col column">
+    <label class="label" for="categoria">Seleccione una categoría:</label>
+    <select id="categoria"  name="categoria" onchange="cargarSubCategoria(this.value)" class="form-select select" >
+        <option value="cargarCategorias();">Seleccione</option>
+
+    </select>
+    </div>
+      <div class="col column">
+      <label class="label" for="subCategoria">Opciones de categoría:</label>
+      <select id="subCategoria" name="subCategoria" class="form-select select">
+        <option value="">Seleccione</option>
+      </select>
+      </div>
+
+      <div class="col column">
+        <label class="label" for="actividadesTelefono">Actividad de teléfono:</label>
+        <select id="actividadesTelefono"  name="actividadesTelefono" class="form-select select" >
+            <option value="cargarActividadesTelefono();">Seleccione</option>
+    
+        </select>
+      </div>
+      <div class="col column">
+          <label class="label" for="actividadesAgente">Actividad de agente:</label>
+          <select id="actividadesAgente" name="actividadesAgente" class="form-select select">
+            <option value="cargarActividadesAgente()">Seleccione</option>
+          </select>
+      </div>
+    
+
+</div>
+
+<button class="col btn btn-primary" style="margin-top:2%;" type="button">Filtrar</button>
+
+</div>

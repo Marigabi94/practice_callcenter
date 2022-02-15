@@ -1,0 +1,77 @@
+html, body { height: 100%; }
+body { 
+    background-color: #ffffff;
+    opacity: 0.9;
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#dcdcec 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #dcdcec 0.8px, #ffffff 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0; 
+    font-family: Roboto, 
+    "Helvetica Neue", sans-serif; 
+   
+}
+    
+header{
+    position: initial;
+    margin-bottom: 5%;
+}
+main{
+    position: absolute;
+     
+}
+
+.col{
+    flex: 0.25 0 0%;
+    width: fit-content;
+    align-content: center;
+}
+
+.btn{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.accordion{
+    margin: 2% 0 3% 1%;
+    position: initial;
+    width: 98%;
+    top: 0;
+   
+}
+
+
+.accordion-button{
+    font-weight: bold;
+}
+
+.accordion-button:hover{
+    color: rgba(49, 138, 172, 1);
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+@media only screen and (min-width: 768px) {
+    main{
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    main{
+        margin-top: 6%;
+    }
+}
+@media only screen and (max-width: 768px){ 
+    main{
+        margin-top: 18%;
+    }
+ } 
