@@ -1,5 +1,5 @@
 # :globe_with_meridians: Practica panel monitoreo de un call center :globe_with_meridians:
-[![](https://img.shields.io/github/last-commit/marigabi94/python_practicas_basicas?style=plastic&logo=github&logoColor=white&labelColor=101010)]()
+[![](https://img.shields.io/github/last-commit/marigabi94/practice_callcenter?style=plastic&logo=github&logoColor=white&labelColor=101010)]()
 
 
 ## :woman_technologist: Programado en :woman_technologist:
