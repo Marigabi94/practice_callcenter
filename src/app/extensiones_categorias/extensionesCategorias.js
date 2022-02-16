@@ -1,101 +1,58 @@
-function cargarCategorias() {
-    var array = ["Nivel", "Grupo", "Promocion", "Sancionado", "Localizacion"];
-    array.sort();
-    addOptions("categoria", array);
+const $categoria = document.querySelector('#categoria');
+const $agente = document.querySelector('#actividadAgente');
+const $telefono = document.querySelector('#actividadTelefono');
+const $subCategoria = document.querySelector('#subCategoria');
+
+const arrayCategorias = ["Nivel", "Grupo", "Promocion", "Sancionado", "Localizacion"];
+const listaSubCategoria = {
+    nivel: ["1. Agente", "2. Buzon de boz"],
+    grupo: [],
+    promocion: [],
+    sancionado: [],
+    localizacion: []
 }
+const arrayActividadesTelefono = ["NOT INUSE", "INUSE", "ONHOLD", "MUTE"];
+const arrayActividadesAgente = ["Disponible", "Descanso", "Reunion", "Desconectado"];
 
+function mostrarOption(array, selectUsar){
+    let elementos = '<option selected disables>--Seleccione--</option>'
 
-//Función para agregar opciones a un <select>.
-function addOptions(domElement, array) {
-    var selector = document.getElementsByName(domElement)[0];
-    for (categoria in array) {
-        var opcion = document.createElement("option");
-        opcion.text = array[categoria];
-        opcion.value = array[categoria].toLowerCase();
-        selector.add(opcion);
+    for(let i=0; i < array.length; i++){
+        elementos += '<option value="' +array[i] + '">' + array[i] +
+        '</option>'
     }
+    selectUsar.innerHTML = elementos
 }
 
+mostrarOption(arrayCategorias, $categoria);
+mostrarOption(arrayActividadesTelefono, $telefono);
+mostrarOption(arrayActividadesAgente, $agente);
 
 
-function cargarSubCategoria() {
-    // Objeto de categoria con subcategoria
-    var listaSubCategorias = {
-      nivel: ["1. Agente", "2. Buzon de boz"],
-      grupo: [],
-      promocion: [],
-      sancionado: [],
-      localizacion: []
 
+$categoria.addEventListener('change', function(){
+    let valor = $categoria.value
+        
+    switch(valor){
+        case 'Nivel':
+            let nivel = listaSubCategoria.nivel
+            mostrarOption(nivel, $subCategoria)
+        break
+        case 'Grupo':
+            let grupo = listaSubCategoria.grupo
+            mostrarOption(grupo, $subCategoria)
+        break
+        case 'Promocion':
+            let promocion = listaSubCategoria.promocion
+            mostrarOption(promocion, $subCategoria)
+        break
+        case 'Sancionado':
+            let sancionado = listaSubCategoria.sancionado
+            mostrarOption(sancionado, $subCategoria)
+        break
+        case 'Localizacion':
+            let localizacion = listaSubCategoria.localizacion
+            mostrarOption(localizacion, $subCategoria)
+            break
     }
-
-
-    var categorias = document.getElementById('categoria')
-    var subCategorias = document.getElementById('subCategoria')
-    var categoriaSeleccionada = categorias.value
-
-    // Se limpian las subCategorias
-    subCategorias.innerHTML = '<option value="">Seleccione</option>'
-
-    if(categoriaSeleccionada !== ''){
-        // Se seleccionan las subCategorias y se ordenan
-        categoriaSeleccionada = listaSubCategorias[categoriaSeleccionada]
-        categoriaSeleccionada.sort()
-
-        // Insertamos las subCategorias
-        categoriaSeleccionada.forEach(function(subCategoria){
-          let opcion = document.createElement('option')
-          opcion.value = subCategoria
-          opcion.text = subCategoria
-          subCategorias.add(opcion)
-        });
-    }
-}
-
-
-
-// TODO: ACTIVIDADES DE TELEFONO
-
-function cargarActividadesTelefono() {
-    var array = ["NOT INUSE", "INUSE", "ONHOLD", "MUTE"];
-    array.sort();
-    addOptions("actividadesTelefono", array);
-}
-
-//Función para agregar opciones a un <select>.
-function addOptions(domElement, array) {
-    var selector = document.getElementsByName(domElement)[0];
-    for (actividadesTelefono in array) {
-        var opcion = document.createElement("option");
-        opcion.text = array[actividadesTelefono];
-        opcion.value = array[actividadesTelefono].toLowerCase();
-        selector.add(opcion);
-    }
-}
-// TODO: ACTIVIDADES DE AGENTE
-
-function cargarActividadesAgente() {
-    var array = ["Disponible", "Descanso", "Reunion", "Desconectado"];
-    array.sort();
-    addOptions("actividadesAgente", array);
-}
-
-//Función para agregar opciones a un <select>.
-function addOptions(domElement, array) {
-    var selector = document.getElementsByName(domElement)[0];
-    for (actividadesAgente in array) {
-        var opcion = document.createElement("option");
-        opcion.text = array[actividadesAgente];
-        opcion.value = array[actividadesAgente].toLowerCase();
-        selector.add(opcion);
-    }
-}
-
-
-
-
-window.addEventListener("load", function() {
-    cargarCategorias();
-    cargarActividadesTelefono();
-    cargarActividadesAgente();
-});
+})

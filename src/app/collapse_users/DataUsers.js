@@ -1,5 +1,5 @@
-const usersData = [
-    {
+export const usersData = [
+    {   "id": "1",
         "nombre" : "Fatima",
         "apellido": "Uzcategui",
         "in": "0/0",
@@ -13,6 +13,7 @@ const usersData = [
         "actividadAgente": "Disponible",
     },
     {
+        "id": "2",
         "nombre" : "Agar",
         "apellido": "Perich",
         "in": "1/1",
@@ -26,6 +27,7 @@ const usersData = [
         "actividadAgente": "Reunion",
     },
     {
+        "id": "3",
         "nombre" : "Francisca",
         "apellido": "Paz",
         "in": "2/2",
@@ -39,6 +41,7 @@ const usersData = [
         "actividadAgente": "Desconectado",
     },
     {
+        "id": "4",
         "nombre" : "Isabel",
         "apellido": "Fernandez",
         "in": "0/0",
@@ -52,6 +55,7 @@ const usersData = [
         "actividadAgente": "Descanso",
     },
     {
+        "id": "5",
         "nombre" : "Ignacia",
         "apellido": "Agurto",
         "in": "0/0",
@@ -65,6 +69,7 @@ const usersData = [
         "actividadAgente": "Reunion",
     },
     {
+        "id": "6",
         "nombre" : "Jacob",
         "apellido": "Filgueira",
         "in": "2/2",
@@ -78,6 +83,7 @@ const usersData = [
         "actividadAgente": "Descanso",
     },
     {
+        "id": "7",
         "nombre" : "Jorge",
         "apellido": "Agurto",
         "in": "2/2",
@@ -91,6 +97,7 @@ const usersData = [
         "actividadAgente": "Desconectado",
     },
     {
+        "id": "8",
         "nombre" : "Yajaira",
         "apellido": "Perich",
         "in": "1/1",
@@ -104,6 +111,7 @@ const usersData = [
         "actividadAgente": "Reunion",
     },
     {
+        "id": "9",
         "nombre" : "Martin",
         "apellido": "Uzcategui",
         "in": "1/1",
@@ -117,6 +125,7 @@ const usersData = [
         "actividadAgente": "Disponible",
     },
     {
+        "id": "10",
         "nombre" : "Sophia",
         "apellido": "Uzcategui",
         "in": "0/0",
@@ -130,6 +139,7 @@ const usersData = [
         "actividadAgente": "Disponible",
     },
     {
+        "id": "11",
         "nombre" : "Maria",
         "apellido": "Filgueira",
         "in": "0/0",
@@ -143,6 +153,7 @@ const usersData = [
         "actividadAgente": "Desconectado",
     },
     {
+        "id": "12",
         "nombre" : "Latifa",
         "apellido": "Filgueira",
         "in": "1/1",
@@ -156,6 +167,7 @@ const usersData = [
         "actividadAgente": "Reunion",
     },
     {
+        "id": "13",
         "nombre" : "Aliq",
         "apellido": "Abdellah",
         "in": "2/2",
@@ -169,6 +181,7 @@ const usersData = [
         "actividadAgente": "Disponible",
     },
     {
+        "id": "14",
         "nombre" : "Lana",
         "apellido": "Abdul Samad",
         "in": "0/0",
@@ -182,6 +195,7 @@ const usersData = [
         "actividadAgente": "Reunion",
     },
     {
+        "id": "15",
         "nombre" : "Jamal",
         "apellido": "Abdellah",
         "in": "1/1",
@@ -195,6 +209,7 @@ const usersData = [
         "actividadAgente": "Disponible",
     },
     {
+        "id": "16",
         "nombre" : "Aurora",
         "apellido": "Abdellah",
         "in": "2/2",
@@ -208,6 +223,7 @@ const usersData = [
         "actividadAgente": "Descanso",
     },
     {
+        "id": "17",
         "nombre" : "Consuelo",
         "apellido": "Abdellah",
         "in": "2/2",
@@ -221,6 +237,7 @@ const usersData = [
         "actividadAgente": "Reunion",
     },
     {
+        "id": "18",
         "nombre" : "Emir",
         "apellido": "Abu Hamdi",
         "in": "1/1",
@@ -235,3 +252,4 @@ const usersData = [
     },
 
 ]
+
