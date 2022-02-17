@@ -1,7 +1,7 @@
 .containerCollapse{
     width: 100vw;
     padding: 3%;
-    
+    justify-content: center;
 }
 
 .widthCollapse{
@@ -30,7 +30,7 @@
     background-color: #FD5710;
 }
 .Descanso{
-    background-color: #B7B7B7;
+    background-color: #615B5B;
 }
 
 .icon::before {
