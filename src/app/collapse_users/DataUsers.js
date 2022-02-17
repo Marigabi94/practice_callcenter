@@ -1,5 +1,5 @@
 export const usersData = [
-    {   "id": "1",
+    {   "id": 1,
         "nombre" : "Fatima",
         "apellido": "Uzcategui",
         "in": "0/0",
@@ -13,7 +13,7 @@ export const usersData = [
         "actividadAgente": "Disponible",
     },
     {
-        "id": "2",
+        "id": 2,
         "nombre" : "Agar",
         "apellido": "Perich",
         "in": "1/1",
@@ -27,7 +27,7 @@ export const usersData = [
         "actividadAgente": "Reunion",
     },
     {
-        "id": "3",
+        "id": 3,
         "nombre" : "Francisca",
         "apellido": "Paz",
         "in": "2/2",
@@ -37,11 +37,11 @@ export const usersData = [
         "grupo": "Chile",
         "localizacion": "Santiago, Chile",
         "ultimoEstado": "12:00pm",
-        "actividadTelefono": "NOT INUSE",
+        "actividadTelefono": "NOTINUSE",
         "actividadAgente": "Desconectado",
     },
     {
-        "id": "4",
+        "id": 4,
         "nombre" : "Isabel",
         "apellido": "Fernandez",
         "in": "0/0",
@@ -55,7 +55,7 @@ export const usersData = [
         "actividadAgente": "Descanso",
     },
     {
-        "id": "5",
+        "id": 5,
         "nombre" : "Ignacia",
         "apellido": "Agurto",
         "in": "0/0",
@@ -69,7 +69,7 @@ export const usersData = [
         "actividadAgente": "Reunion",
     },
     {
-        "id": "6",
+        "id": 6,
         "nombre" : "Jacob",
         "apellido": "Filgueira",
         "in": "2/2",
@@ -83,7 +83,7 @@ export const usersData = [
         "actividadAgente": "Descanso",
     },
     {
-        "id": "7",
+        "id": 7,
         "nombre" : "Jorge",
         "apellido": "Agurto",
         "in": "2/2",
@@ -93,11 +93,11 @@ export const usersData = [
         "grupo": "Chile",
         "localizacion": "Santiago, Chile",
         "ultimoEstado": "04:00pm",
-        "actividadTelefono": "NOT INUSE",
+        "actividadTelefono": "NOTINUSE",
         "actividadAgente": "Desconectado",
     },
     {
-        "id": "8",
+        "id": 8,
         "nombre" : "Yajaira",
         "apellido": "Perich",
         "in": "1/1",
@@ -111,7 +111,7 @@ export const usersData = [
         "actividadAgente": "Reunion",
     },
     {
-        "id": "9",
+        "id": 9,
         "nombre" : "Martin",
         "apellido": "Uzcategui",
         "in": "1/1",
@@ -125,7 +125,7 @@ export const usersData = [
         "actividadAgente": "Disponible",
     },
     {
-        "id": "10",
+        "id": 10,
         "nombre" : "Sophia",
         "apellido": "Uzcategui",
         "in": "0/0",
@@ -139,7 +139,7 @@ export const usersData = [
         "actividadAgente": "Disponible",
     },
     {
-        "id": "11",
+        "id": 11,
         "nombre" : "Maria",
         "apellido": "Filgueira",
         "in": "0/0",
@@ -149,11 +149,11 @@ export const usersData = [
         "grupo": "Venezuela",
         "localizacion": "Maracaibo, Venezuela",
         "ultimoEstado": "04:00pm",
-        "actividadTelefono": "NOT INUSE",
+        "actividadTelefono": "NOTINUSE",
         "actividadAgente": "Desconectado",
     },
     {
-        "id": "12",
+        "id": 12,
         "nombre" : "Latifa",
         "apellido": "Filgueira",
         "in": "1/1",
@@ -167,7 +167,7 @@ export const usersData = [
         "actividadAgente": "Reunion",
     },
     {
-        "id": "13",
+        "id": 13,
         "nombre" : "Aliq",
         "apellido": "Abdellah",
         "in": "2/2",
@@ -181,7 +181,7 @@ export const usersData = [
         "actividadAgente": "Disponible",
     },
     {
-        "id": "14",
+        "id": 14,
         "nombre" : "Lana",
         "apellido": "Abdul Samad",
         "in": "0/0",
@@ -195,7 +195,7 @@ export const usersData = [
         "actividadAgente": "Reunion",
     },
     {
-        "id": "15",
+        "id": 15,
         "nombre" : "Jamal",
         "apellido": "Abdellah",
         "in": "1/1",
@@ -209,7 +209,7 @@ export const usersData = [
         "actividadAgente": "Disponible",
     },
     {
-        "id": "16",
+        "id": 16,
         "nombre" : "Aurora",
         "apellido": "Abdellah",
         "in": "2/2",
@@ -223,7 +223,7 @@ export const usersData = [
         "actividadAgente": "Descanso",
     },
     {
-        "id": "17",
+        "id": 17,
         "nombre" : "Consuelo",
         "apellido": "Abdellah",
         "in": "2/2",
@@ -237,7 +237,7 @@ export const usersData = [
         "actividadAgente": "Reunion",
     },
     {
-        "id": "18",
+        "id": 18,
         "nombre" : "Emir",
         "apellido": "Abu Hamdi",
         "in": "1/1",
@@ -247,7 +247,7 @@ export const usersData = [
         "grupo": "Siria",
         "localizacion": "Damasco, Siria",
         "ultimoEstado": "11:15am",
-        "actividadTelefono": "NOT INUSE",
+        "actividadTelefono": "NOTINUSE",
         "actividadAgente": "Desconectado",
     },
 
